@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Te22sting..'
 		sh 'mvn test'
 		sh 'mvn sonar:sonar -Dsonar.host.url=http://3.238.87.228:9000 -Dsonar.login=5dd0b4d2b811920003922fa2875e068134af4a15'
             }
